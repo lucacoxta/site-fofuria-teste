@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AAAE XV de Março - Fúria</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/Escudo - Fúria.png" type="image/png">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="img/Escudo - Fúria.png" alt="Logo Atlética Fúria" class="logo__img">
+      </a>
+      
+      <nav class="main-nav">
+        <a href="#" class="main-nav__link">Início</a>
+        <a href="#quemsomos" class="main-nav__link">Atlética</a>
+        <a href="#modalidades" class="main-nav__link">Modalidades</a>
+        <a href="#parceiros" class="main-nav__link">Parceiros</a>
+        <a href="#contato" class="main-nav__link">Contato</a>
+      </nav>
+      
+      <div class="header-actions">
+  <a href="https://www.instagram.com/atleticafuriaxv/p/DNUBgL6xGr5/?img_index=2" class="btn btn--primary" target="_blank" rel="noopener noreferrer">Seja Sócio</a>
+  <button id="mobile-menu-button" class="mobile-menu-trigger" aria-label="Abrir menu">
+    <svg class="icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="28" height="28">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+    </svg>
+  </button>
+</div>
+    
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="#">Início</a>
+      <a href="#quemsomos">Atlética</a>
+      <a href="#modalidades">Modalidades</a>
+      <a href="#parceiros">Parceiros</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- Banner principal -->
+    <section class="banner">
+      <video playsinline autoplay muted loop id="bg-video">
+        <source src="img/Swift Glitch Logo_free (1).mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+      </video>
+      <div class="banner-content fade-in">
+        <h1 class="banner-content__title">Atlética Fúria XV De Março</h1>
+        <p>Desde 2010 representando com orgulho os estudantes da UTFPR-CP.</p>
+        <a href="#quemsomos" class="btn btn--primary">Conheça a Fúria</a>
+      </div>
+    </section>
+
+    <!-- Quem somos -->
+    <section id="quemsomos" class="section">
+      <div class="container fade-in">
+        <h2 class="section-title">Quem <span class="highlight">Somos</span></h2>
+        <p style="text-align: center; max-width: 800px; margin: -2rem auto 3rem auto; color: var(--clr-text-secondary);">
+          A <strong>Atlética Fúria XV De Março</strong> representa oficialmente os estudantes da UTFPR-CP. Mais do que incentivar a prática esportiva, nossa missão é fortalecer a união entre os acadêmicos, promovendo integração, amizade e o verdadeiro espírito de equipe.
+        </p>
+        <div class="video-container">
+      <video autoplay muted loop playsinline style="width:100%; height:auto; border-radius: var(--border-radius);">
+    <source src="img/80s Funky Logo_free.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+    </video>
+    </div>
+      </div>
+    </section>
+
+    <!-- Modalidades -->
+    <section id="modalidades" class="section section--secondary">
+      <div class="container">
+        <h2 class="section-title">Nossas <span class="highlight">Modalidades</span></h2>
+        <p class="section-subtitle" style="text-align:center; max-width:800px; margin:0 auto 2rem auto; color:var(--clr-text-secondary);">
+          Conheça as modalidades que fazem parte da AAAE XV de Março - Fúria, unindo esporte, estratégia e diversão.
+        </p>
+        <div class="modalidades-grid">
+          <div class="card fade-in" style="transition-delay: 0ms;">
+            <img class="card__image" src="img/futsal - furia.jpg" alt="Time de Futsal">
+            <div class="card__content">
+              <h3>Futsal</h3>
+              <p>Dribles, gols e muita raça em quadra.</p>
+            </div>
+          </div>
+          <div class="card fade-in" style="transition-delay: 100ms;">
+            <img class="card__image" src="img/volei - furia (2).jpg" alt="Time de Vôlei">
+            <div class="card__content">
+              <h3>Vôlei</h3>
+              <p>Saques, bloqueios e ataques fulminantes.</p>
+            </div>
+          </div>
+          <div class="card fade-in" style="transition-delay: 200ms;">
+            <img class="card__image" src="img/basquete - furia.jpg" alt="Time de Basquete">
+            <div class="card__content">
+              <h3>Basquete</h3>
+              <p>Arremessos de 3, enterradas e jogo em equipe.</p>
+            </div>
+          </div>
+          <div class="card fade-in" style="transition-delay: 300ms;">
+            <img class="card__image" src="img/Fúria - e sports.png" alt="Time de E-sports">
+            <div class="card__content">
+              <h3>E-Sports</h3>
+              <p>Estratégia e habilidade no cenário digital.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+
+        <!-- Parceiros -->
+    <section id="parceiros" class="section">
+      <div class="container">
+        <h2 class="section-title">Nossos <span class="highlight">Parceiros</span></h2>
+        <div class="parceiros-logos fade-in">
+          <img src="img/Fúria - e sports.png" alt="Logo do time de E-sports Fúria" title="Fúria E-Sports">
+          <img src="img/Bateria - furia.png" alt="Logo da Bateria Fúria" title="Bateria Fúria">
+          <img src="img/tofa.jpg" alt="Logo do Torneio TOFA" title="TOFA">
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram Banner -->
+    <section id="instagram" class="section instagram-section">
+      <div class="container" style="text-align: center;">
+        <i class="fab fa-instagram" style="font-size:60px; color:#fffefe; margin-bottom:15px;"></i>
+        <h2 class="section-title">Fale com a <span class="highlight">Atlética Fúria</span></h2>
+        <a href="https://www.instagram.com/atleticafuriaxv" class="btn btn--primary" target="_blank">
+          @atleticafuriaxv
+        </a>
+      </div>
+    </section>
+
+
+  <!-- FOOTER -->
+  <footer id="contato" class="footer">
+    <div class="container footer-container">
+      <div class="footer-column">
+        <h3>AAAE XV de Março</h3>
+        <p>Atlética Fúria XV de Março – Inspirando união, esporte e paixão pelos estudantes da UTFPR-CP desde 2010.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Contato</h3>
+        <p><strong>Local:</strong> UTFPR - Campus Cornélio Procópio, PR</p>
+        <p><strong>Email:</strong> aaae.furia@gmail.com</p>
+      </div>
+      <div class="footer-column">
+        <h3>Links</h3>
+        <ul>
+          <li><a href="#quemsomos">Atlética</a></li>
+          <li><a href="#modalidades">Modalidades</a></li>
+          <li><a href="#">Seja Sócio</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Siga-nos</h3>
+        <div class="social-links">
+          <a href="https://www.instagram.com/atleticafuriaxv" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/@aaaefuria" target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.facebook.com/atleticafuriaxv/?locale=pt_BR" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+  <div class="copyright">
+    &copy; 2025 AAAE XV de Março - Fúria. Todos os direitos reservados.
+  </div>
+  <!-- Logo abaixo do copyright -->
+  <div class="footer-logo">
+    <img src="img/cabeça do rino.png" alt="Logo AAAE Fúria">
+  </div>
+</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
